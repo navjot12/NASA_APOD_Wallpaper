@@ -1,4 +1,5 @@
 #NASA APOD Wallpaper
+######For Ubuntu systems
 
 This script will set your wallpaper to NASA's Astronomy Picture of the Day available at https://apod.nasa.gov/apod/.
 If a non-image item is the current APOD, the script will choose any image from the archives.
