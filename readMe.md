@@ -5,11 +5,11 @@ This script will set your wallpaper to NASA's Astronomy Picture of the Day avail
 If a non-image item is the current APOD, the script will choose any image from the archives.
 
 To use:
-1. Clone this repository.
-2. In nasa_apod_wallpaper.py, edit "user" variable to your own username.
-3. Run nasa_apod_wallpaper.py!
+  1. Clone this repository.
+  2. In nasa_apod_wallpaper.py, edit "user" variable to your own username.
+  3. Run nasa_apod_wallpaper.py!
 
-Note: The script sleeps for 15 seconds to allow complete download the APOD.
+Note: The script sleeps for 15 seconds to allow complete download of the APOD.
 
 To have this script run daily, run the following commands in terminal:
 
