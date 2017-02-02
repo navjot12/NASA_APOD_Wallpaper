@@ -1,4 +1,4 @@
-NASA APOD Wallpaper
+#NASA APOD Wallpaper
 
 This script will set your wallpaper to NASA's Astronomy Picture of the Day available at https://apod.nasa.gov/apod/.
 If a non-image item is the current APOD, the script will choose any image from the archives.
@@ -12,7 +12,7 @@ Note: The script sleeps for 15 seconds to allow complete download the APOD.
 
 To have this script run daily, run the following commands in terminal:
 
-```crontab -e'''
+```crontab -e```
 
 This will open a file to be edited in terminal. Enter the following statement in it
 
