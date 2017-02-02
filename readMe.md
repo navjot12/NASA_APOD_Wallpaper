@@ -24,4 +24,4 @@ Press ```ctrl+x``` to exit file editing mode and press ```Y``` to save changes.
 
 This will run the script in your system in every 12 hours!
 
-PS: Happy birthday to my friend Arpit Gogia (@arpitgogia) who was the inspiration behind this!
+PS: Happy birthday to my friend [Arpit Gogia](https://github.com/arpitgogia) who was the inspiration behind this!
