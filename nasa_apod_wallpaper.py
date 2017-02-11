@@ -6,7 +6,7 @@ import time
 from random import randint
 from bs4 import BeautifulSoup as BS
 
-user = 'navjot'
+user = 'arpit'
 
 url = 'https://apod.nasa.gov/apod/'
 r = requests.get(url)
@@ -32,7 +32,7 @@ url = url + image
 os.system('/usr/bin/gsettings set org.gnome.desktop.background picture-uri "myloxyloto"')
 os.system('wget -O /home/'+user+'/Pictures/desktop_background.jpg ' + url)
 
-time.sleep(5)				#15 seconds time to allow proper download of picture
+time.sleep(5)
 flag = 5
 if flag is 5:
 	os.system('/usr/bin/gsettings set org.gnome.desktop.background picture-uri file:///home/'+user+'/Pictures/desktop_background.jpg')
