@@ -30,5 +30,13 @@ PS: Happy birthday to my friend [Arpit Gogia](https://github.com/arpitgogia) who
 ##BONUS
 
 A similar script to NASA-APOD, wallpaperscraft.py gets wallpapers from https://wallpaperscraft.com
-Modify categories list in **line 12** of script to alter categories to get wallpaper from
+
+Modify categories list in **line 12** of script to alter categories to fetch wallpaper from.
+
 Check out categories at _https://wallpaperscraft.com_
+
+Now you can specify category while executing script as a command line argument. For example, the following command will get a wallpaper from space category.
+
+```python wallpaperscraft.py space```
+
+The argument passed must exist in the categories list defined in line-12 of the script.
