@@ -5,12 +5,17 @@
 import os
 import requests
 import time
+import sys
 from random import randint
 from bs4 import BeautifulSoup as BS
 
 user = 'navjot'
 categories = ['abstract', 'city', 'cars', 'nature', 'space']			#Change this if wallpapers from other categories needed
 x = randint(0, len(categories)-1)
+
+if len(sys.argv) > 1:
+	if str(sys.argv[1]).lower() in categories:
+		x = categories.index(str(sys.argv[1]).lower())
 
 url = 'https://wallpaperscraft.com/catalog/' + categories[x]
 r = requests.get(url)
